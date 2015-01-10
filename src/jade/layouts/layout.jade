@@ -2,5 +2,24 @@ doctype html
 html(lang='en')
   head
     title AngryUI
+    link(href='css/angry.css', rel="stylesheet", type="text/css")
+    link(href='css/stylesheet.css', rel="stylesheet", type="text/css")
   body
-    block content
+    header.header
+      nav.nav.nav-bar.nav-bar-static
+        .container 
+          a(href='/').navbar-brand AngryUI
+          ul.nav
+            li
+              a(href='get-started.html') Get started
+            li
+              a(href='components.html') Components
+            li 
+              a(href='addons.html') Add-ons
+          ul.nav
+            li
+              a(href='https://github.com/angry-js/angry-ui') Github
+    .content.container
+      block content
+        h1 AngryUI
+      
