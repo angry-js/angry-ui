@@ -2,7 +2,7 @@
 /**
  * Nav
  */
-.nav, 
+.nav,
 .nav li{
 	padding: 0;
 	margin: 0;
@@ -15,26 +15,28 @@
 	text-align: center;
 }
 
-.nav.nav-bar{
+.nav.navbar{
 	width: 100%;
+	margin: auto;
 	z-index: 100;
+	display: block;
 	border-radius: 4px;
 	background: #f7f7f7;
 	border: 1px solid rgba(0,0,0,.1);
 }
 
-.nav.nav-bar.nav-bar-static{
+.nav.navbar.navbar-static{
 	top: 0;
 	position: fixed;
 	border-radius: 0;
 }
 
-.nav.nav-bar .nav > li > a{
+.nav.navbar .nav > li > a{
 	padding: 17px 5px;
-	display: block;	
+	display: block;
 }
 
-.nav.nav-bar .navbar-brand{
+.nav.navbar .navbar-brand{
 	color: #666;
 	padding: 0 20px;
 	font-weight: bold;
@@ -45,7 +47,7 @@
 	padding: 15px 0;
 }
 
-.nav.nav-bar .nav-active{
+.nav.navbar .nav-active{
 	background-color: #fafafa;
 	border-left-color: rgba(0,0,0,.1);
 	border-right-color: rgba(0,0,0,.1);
